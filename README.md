@@ -23,10 +23,4 @@
 * Модель для дообучения [tripadvisor_model.py](tripadvisor_model.py), пока не создана, т.к. качества работы tripadvisor_model.py для тествого формата достаточно. 
 * Модель обученная один раз на датасете [cleaned_booking_reviews.csv](cleaned_booking_reviews.csv), расположена в файле [Model_Learning.py](Model_Learning.py).
 * Модель для дообучения [Model_Learning.py](Model_Learning.py), расположена в файле [Model.py](Model.py).
-### Все библеотеки для каждого из файлов :
-1. Файл Scrap5.py : `pip install csv selenium re time -q`.
-2. Файл mtsbot.py : `pip install torch clip PIL telegram transformers logging -q`, также полезной практикой будет импортировать `import os`.
-3. Файл tripadvisor_model.py, Model_learning.py, Model.py : `pip install pandas torch scikit-learn signal -q`, также полезной практикой будет импортировать `import os`.
-4. Файл Data_preprocessing.py :  `pip install pandas re nltk razdel ssl -q`.
-5. Файл EDA.py, EDA_for_tripadvisor.py : `pip install matplotlib wordcloud scikit-learn nltk pandas re -q`.
-6. Файл BERT_DATA_Tokenizer.py : `pip install pandas transformers`.
+
